@@ -454,12 +454,13 @@ async def go_back_callback(_, callback_query):
     buttons = [
         [
             InlineKeyboardButton(f"➕ {add_me_text}", url=f"{BOT_LINK}?startgroup=true"),
-            InlineKeyboardButton(f"📢 {updates_text}", url="https://t.me/vibeshiftbots")
+            InlineKeyboardButton(f"📢 {updates_text}", url="https://t.me/bollywoodmusicsupport1")
         ],
         [
-            InlineKeyboardButton(f"💬 {support_text}", url="https://t.me/Frozensupport1"),
-            InlineKeyboardButton(f"❓ {help_text}", callback_data="show_help")
-        ]
+            InlineKeyboardButton(f"💬 {support_text}", url="https://t.me/bollywoodmusicsupport"),
+            InlineKeyboardButton(f"❓ {help_text}", callback_data="show_help"),
+            InlineKeyboardButton(f"👑 {owner_text}", url="https://t.me/Adityaofficial3")
+        ] 
     ]
     reply_markup = InlineKeyboardMarkup(buttons)
 
