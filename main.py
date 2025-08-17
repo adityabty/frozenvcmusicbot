@@ -405,7 +405,7 @@ async def start_handler(_, message):
             InlineKeyboardButton(f"💬 {support_text}", url="https://t.me/bollywoodmusicsupport1l"),
             
             InlineKeyboardButton(f"❓ {help_text}", callback_data="show_help"),
-            InlineKeyboardButton(f"👑 {Creator}", callback_data="@adityaji3")
+            InlineKeyboardButton(f"👑 {Creator_text}", callback_data="@adityaji3")
             
         ]
     ]
