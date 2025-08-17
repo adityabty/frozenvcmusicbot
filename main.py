@@ -399,17 +399,20 @@ async def start_handler(_, message):
     buttons = [
         [
             InlineKeyboardButton(f"➕ {add_me_text}", url=f"{BOT_LINK}?startgroup=true"),
-            InlineKeyboardButton(f"📢 {updates_text}", url="https://t.me/vibeshiftbots")
+            InlineKeyboardButton(f"📢 {updates_text}", url="https://t.me/bollywoodmusicsupport1")
         ],
         [
-            InlineKeyboardButton(f"💬 {support_text}", url="https://t.me/Frozensupport1"),
-            InlineKeyboardButton(f"❓ {help_text}", callback_data="show_help")
+            InlineKeyboardButton(f"💬 {support_text}", url="https://t.me/bollywoodmusicsupport1l"),
+            
+            InlineKeyboardButton(f"❓ {help_text}", callback_data="show_help"),
+            InlineKeyboardButton(f"👑 {Creator}", callback_data="@adityaji3")
+            
         ]
     ]
     reply_markup = InlineKeyboardMarkup(buttons)
 
     await message.reply_animation(
-        animation="https://frozen-imageapi.lagendplayersyt.workers.dev/file/2e483e17-05cb-45e2-b166-1ea476ce9521.mp4",
+        animation="https://i.ibb.co/dwK8JMhc/x.jpg",
         caption=caption,
         parse_mode=ParseMode.MARKDOWN,
         reply_markup=reply_markup
