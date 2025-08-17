@@ -462,8 +462,10 @@ async def go_back_callback(_, callback_query):
         [
             InlineKeyboardButton(f"💬 {support_text}", url="https://t.me/bollywoodmusicsupport"),
             InlineKeyboardButton(f"❓ {help_text}", callback_data="show_help"),
-            InlineKeyboardButton(f"👑 {owner_text}", url="https://t.me/Adityaofficial3")
-        ] 
+            InlineKeyboardButton(f"👑 {owner_text}", url="https://t.me/Adityaofficial3"),
+            InlineKeyboardButton(f"👑 {Creator_text}", callback_data="@adityaji3")
+        ]
+            
     ]
     reply_markup = InlineKeyboardMarkup(buttons)
 
